@@ -145,7 +145,27 @@ public class Main extends ListenerAdapter {
             throw new RuntimeException(e);
         }
 
-        executeCommand(content);
+        try {
+            while (true) {
+                System.out.print(getCurrentDirectory());
+
+
+                if (content == null || content.equalsIgnoreCase("exit")) {
+                    sendMessage("Exiting...");
+                    break;
+                }
+
+                if (content.startsWith("cd ")) {
+                    String directoryPath = content.substring(3).trim();
+                    changeDirectory(directoryPath);
+
+                } else {
+                    executeCommand(content);
+                }
+            }
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
 
