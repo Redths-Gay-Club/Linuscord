@@ -20,7 +20,7 @@ This is a Discord bot that allows you to execute linux terminal commands through
 3. run the jar file with java 17 with the following command:
 
 ```bash
-java -jar Linuscord.jar
+sudo java -jar Linuscord.jar
 ```
 
 ## Building
