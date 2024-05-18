@@ -1,7 +1,7 @@
 # Discord Terminal Bot
 
 This is a Discord bot that allows you to execute linux terminal commands through Discord messages. It's built with Java and uses the JDA (Java Discord API).
-![Project Logo](https://i.imgur.com/4JWq1rn.png)
+![Project Logo](icon.png)
 ## Features
 
 - Execute linux terminal commands through Discord messages
@@ -17,6 +17,12 @@ This is a Discord bot that allows you to execute linux terminal commands through
   "channel": "YOUR_TERMINAL_CHANNEL_ID"
 }
 ```
+3. run the jar file with java 17 with the following command:
+
+```bash
+java -jar Linuscord.jar
+```
+
 ## Building
 
 This project uses Maven for dependency management and building. To build a JAR file for this project, follow these steps:
