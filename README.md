@@ -1,4 +1,4 @@
-# Discord Terminal Bot
+# Linusord
 
 This is a Discord bot that allows you to execute linux terminal commands through Discord messages. It's built with Java and uses the JDA (Java Discord API).
 ![Project Logo](icon.png)
